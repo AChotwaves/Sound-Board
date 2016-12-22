@@ -1,0 +1,66 @@
+#s1{
+	background-image:url('troll.png');
+	background-size:cover;
+}
+			
+#s2{
+	background-image:url('Me.png');
+	background-size:cover;
+
+}
+			
+#s3{
+	background-image:url('lone.jpg');
+	background-size:cover;
+		
+}
+
+h1{
+	text-align:center;
+	text-shadow:3px 5px 7px red;
+}
+
+#pos{
+	display:flex;
+	flex:0;
+	flex-direction:row;
+}
+
+.buttons{
+	border-radius:100px;
+	height:150px;
+	width:150px;
+	margin:20px;
+	box-shadow:3px 5px 7px black;
+}
+
+#s1:hover{
+	box-shadow:3px 5px 7px yellow;
+	
+	
+}
+#s1:active{
+	box-shadow:3px 5px 7px blue;
+}
+
+#s2:hover{
+	box-shadow:3px 5px 7px red;
+	
+}
+#s2:active{
+	box-shadow:3px 5px 7px blue;
+}
+#s3:hover{
+	box-shadow:3px 5px 7px yellow;
+	
+}
+#s3:active{
+	box-shadow:3px 5px 7px red;
+}
+
+body{
+	border-style:outset;
+	border-width:15px;
+	border-color:green;
+	border-radius:90px;
+}
